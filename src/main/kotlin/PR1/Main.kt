@@ -1,3 +1,5 @@
+package PR1
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
@@ -25,4 +27,22 @@ fun main(args: Array<String>) {
     var str1: String? = "abc"
     str1 = null
     println(str1)
+
+    val l = if(str1 != null) str1.length else -1
+    println(l)
+
+    // "?" Оператор безопасного вызова
+    println(str1?.length)
+
+    // Оператор Elvis
+    // Если длинна не равна null, то вернет то что слева, иначе -1
+    val l1 = str1?.length ?: -1
+
+    var flag: Boolean
+    flag = true
+    when(flag){
+        false -> println("false")
+        true -> println("true")
+        else -> println()
+    }
 }
