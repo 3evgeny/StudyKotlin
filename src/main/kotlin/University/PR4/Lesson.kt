@@ -1,4 +1,4 @@
-package PR4
+package University.PR4
 
 import kotlin.system.measureNanoTime
 

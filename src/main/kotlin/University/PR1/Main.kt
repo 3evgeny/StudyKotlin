@@ -1,4 +1,4 @@
-package PR1
+package University.PR1
 
 import java.util.*
 

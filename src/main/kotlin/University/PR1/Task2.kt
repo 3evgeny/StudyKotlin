@@ -1,4 +1,4 @@
-package PR1
+package University.PR1
 
 fun main(args: Array<String>){
     val(a,b,m,n) = readln().split(" ").map { it.toInt() }
